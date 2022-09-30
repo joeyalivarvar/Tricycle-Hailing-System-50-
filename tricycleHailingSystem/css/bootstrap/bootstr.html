@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bootstrap Template</h1>
+        <section class="mt-5">
+        <h2>Typography</h2>
+        <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maiores obcaecati officia cumque alias esse nam labore doloribus non reiciendis.</small>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, in alias. Tempora earum et in provident odio at reiciendis dolor illum, maxime laudantium fugit commodi laborum error totam possimus rem!</p>
+
+        </section>
+         
+        <section class="mb-5">
+            <h2>Button</h2>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-secondary">Primary</button>
+            <button class="btn btn-success">Primary</button>
+            <button class="btn btn-danger">Primary</button>
+            <button class="btn btn-warning">Primary</button>
+            <button class="btn btn-info">Primary</button>
+         
+        </section>
+
+        <section class="mb-5">
+            <h2>Button Outline</h2>
+            <button class="btn btn-outline-primary">Primary</button>
+            <button class="btn btn-outline-secondary">Primary</button>
+            <button class="btn btn-outline-success">Primary</button>
+            <button class="btn btn-outline-danger">Primary</button>
+            <button class="btn btn-outline-warning">Primary</button>
+            <button class="btn btn-outline-info">Primary</button>
+
+            
+         
+        </section>
+
+        <section class="mb-5">
+            <h2>Button Sizes</h2>
+            <button class="btn btn-primary btn-lg">Large</button>
+            <button class="btn btn-primary">Default</button>
+            <button class="btn btn-primary btn-sm">Primary</button>
+
+            <br/>
+            <br/>
+          
+            <button class="btn btn-primary btn-lg btn-block">Block</button>
+
+        </section>
+
+        <section class="mb-5">
+            <h2>Button Group</h2>
+
+            <div class="btn-group">
+            <button class="btn btn-primary">Large</button>
+            <button class="btn btn-primary">Default</button>
+            <button class="btn btn-primary">Primary</button>
+            </div>
+        </section>
+
+        <section class="mb-5">
+
+            <h2>Button ChgeckBox</h2>
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons"></div>
+            <label class="btn btn-primary active">
+                <input type="checkbox" checked="">
+                Active
+            </label>
+            <label class="btn btn-primary">
+                <input type="checkbox" checked="">
+                Check
+            </label>
+            <label class="btn btn-primary">
+                <input type="checkbox" checked="">
+                Ckeck
+            </label>
+        </section>
+
+        <section class="mb-5">
+
+            <h2>Button ChgeckBox</h2>
+
+            <div class="btn-group btn-group-toggle" data-toggle="buttons"></div>
+            <label class="btn btn-primary active">
+                <input type="radio" checked="">
+                Active
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" >
+                Check
+            </label>
+            <label class="btn btn-primary">
+                <input type="radio" >
+                Ckeck
+            </label>
+        </section>
+
+
+        <section class="mb-5">
+            <h2> Table </h2>
+
+            <table class="table table-striped table-bordered table-hover table-dark">
+
+                <thead class="thead-dark">
+                <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-sucess">
+                <td>FirstName</td>
+                <td>LastName</td>
+                <td>Age</td>
+                 </tr>
+                 <tr>
+                    <td>FirstName</td>
+                    <td>LastName</td>
+                    <td>Age</td>
+                     </tr>
+                     <tr>
+                        <td>FirstName</td>
+                        <td>LastName</td>
+                        <td>Age</td>
+                         </tr>
+                    </tbody>
+            </table>
+
+            <section class="mb-5">
+                <h2>Forms</h2>
+                <div class="form-group">
+                    <label >Email Address</label>
+                    <input type="email" name="email" class="form-control" placeholder="Enter Email">
+                    <small class="form-text text-muted"> Enter A valid Email</small>
+                </div>
+
+                <div class="form-group">
+
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                    <label>Select</label>
+                    <select class="form-control"id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>TextArea</label>
+                    <textarea name="form-control" id="" cols="30" rows="10" placeholder="TextArea"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Disabled Input</label>
+                    <input type="text" class="form-control" disabled>
+                </div>
+                <div class="form-group">
+                    <label>Disabled Input</label>
+                    <input type="text" class="form-control" readonly="true">
+                </div>
+
+            
+            <div class="form-group">
+                <label>Valid Input</label>
+                <input type="text" class="form-control is-valid" readonly="true">
+                <div class="valid-feedback">Success</div>
+            </div>
+
+
+            <div class="form-group">
+                <label>Large Input</label>
+                <input type="text" class="form-control form-control-lg" placeholder="Large Textbox">
+            </div>
+            <div class="form-group">
+                <label>Large Input</label>
+                <input type="text" class="form-control form-control-sm" placeholder="Large Textbox">
+            </div>
+
+            <input type="checkbox" class="form-control">
+
+            <fieldset>
+                <legend>Custome Form Elements</legend>
+                <div class="form-group">
+
+                    <div class="costum-control custom-radio">
+                        <input type="radio"name="customRadio" id="customRadio1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio1">Toggle Custom Radio</label>
+                    </div>
+                    <div class="costum-control custom-Radio">
+                        <input type="radio"name="customRadio" id="customRadio2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio2">Toggle Custom Radio</label>
+                    </div>
+                    <div class="costum-control custom-Radio">
+                        <input type="radio"name="customRadio" id="customRadio3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadio3">Toggle Custom Radio</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" id="customCheckbox"class="custom-control-input" checked="">
+                    <label for="customCheckbox" class="custom-control-label">Custom checkbox</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" id="customSwitch"class="custom-control-input" checked="">
+                    <label for="customSwitch" class="custom-control-label">Custom Switch</label>
+                </div>
+            </div>
+
+            <section class="mb-5">
+
+                <h2>Tabs</h2>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a href="#home"class="nav-link active" data-toggle="tab">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about"class="nav-link" data-toggle="tab">About</a>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="home">
+                    <h2>Home</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit praesentium quaerat culpa ut, beatae optio? Quod architecto placeat natus. Deserunt.</p>
+                </div>
+            
+                <div class="tab-pane fade"id="about">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit praesentium quaerat culpa ut, beatae optio? Quod architecto placeat natus. Deserunt.</p>
+                </div>
+            </div>
+
+            </section>
+
+            <section class="mb-5">
+                <h2>Alert</h2>
+                <div class="alert alert-success">
+                    <h4 class="alert-heading">Success!</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident atque numquam veritatis minus dolor quas.</p>
+                </div>
+                <div class="alert alert-danger">
+                    <h4 class="alert-heading">Danger!</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident atque numquam veritatis minus dolor quas.</p>
+                </div>
+                <div class="alert alert-warning">
+                    <h4 class="alert-heading">Warnings!</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident atque numquam veritatis minus dolor quas.</p>
+                </div>
+                <div class="alert alert-info">
+                    <h4 class="alert-heading">Info!</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident atque numquam veritatis minus dolor quas.</p>
+                </div>
+                <div class="alert alert-dismissible alert-warning">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <h4 class="alert-heading">warning!</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident atque numquam veritatis minus dolor quas.</p>
+                </div>
+
+
+            </section>
+
+            <section class="mb-5">
+                <h2>Badge</h2>
+                <span class="badge badge-primary">Primary</span>
+                <span class="badge badge-secondary">Secoindary</span>
+                <span class="badge badge-success">Success</span>
+                <span class="badge badge-danger">Danger</span>
+                <span class="badge badge-warning">Warning</span>
+                <span class="badge badge-info">Info</span>
+            </section>
+
+            <section class="mb-5">
+
+                <h2>Progress bar</h2>
+                <div class="progress mb-2">
+                    <div class="progress-bar" style="width:25%;" aria-valuenow="25" aria-valuemax="100">25%</div>
+
+                </div>
+
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-success" style="width:50%;" aria-valuenow="50" aria-valuemax="100">25%</div>
+
+                </div>
+
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-danger" style="width:75%;" aria-valuenow="75" aria-valuemax="100">25%</div>
+
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar bg-warning" style="width:100%;" aria-valuenow="100" aria-valuemax="100">25%</div>
+
+                </div>
+
+            </section>
+
+
+            <section class="mb-5">
+                <h2>Container</h2>
+                <div class="jumbotron">
+                    <h1>Hellow Home!</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore impedit aliquid, temporibus rem nam minima!</p>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, impedit!
+                        
+                    </p>
+                    <a href="#" class="btn btn-primary btn-lg">Start now</a>
+                </div>
+            </section>
+
+            <section class="mb-5">
+                <h2>List Group</h2>
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">List 1</a>
+                    <a href="#" class="list-group-item list-group-item-action ">List 2</a>
+                    <a href="#" class="list-group-item list-group-item-action ">List 3</a>
+                    <a href="#" class="list-group-item list-group-item-action ">List 3</a>
+                </div>
+            </section>
+
+            <section class="mb-5">
+                <h2>Cards</h2>
+                <div class="card mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Card Title</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.</p>
+                    </div>
+
+                    <div class="card mb-3 bg-dark text-white" style="max-width: 20rem;">
+                        <div class="card-header">Header</div>
+                        <div class="card-body">
+                            <h4 class="card-title">Card Title</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.</p>
+                        </div>
+
+                        <div class="card mb-3 bg-primary text-white" style="max-width: 20rem;">
+                            <div class="card-header">Header</div>
+                            <div class="card-body">
+                                <h4 class="card-title">Card Title</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.</p>
+                            </div>
+                        </div>
+                    </section>
+                            <section class="mb-5">
+                                <h2>Dialogs - Popover</h2>
+                                <button type="button" class="btn btn-secondary" title="left" data-container="Body"
+                                data-toggle="popover" data-placement="left"data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.">left</button>
+
+                                <button type="button" class="btn btn-secondary" title="top" data-container="Body"
+                                data-toggle="popover" data-placement="top"data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.">top</button>
+
+                                <button type="button" class="btn btn-secondary" title="bottom" data-container="Body"
+                                data-toggle="popover" data-placement="bottom"data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.">bottom</button>
+
+                                <button type="button" class="btn btn-secondary" title="right" data-container="Body"
+                                data-toggle="popover" data-placement="right"data-content="Lorem ipsum dolor sit amet consectetur adipisicing elit. At eius in illum qui optio blanditiis quod quibusdam, est molestias esse.">right</button>
+                            </section>
+                        </section>
+
+                    </section>
+
+                    <section class="mb-5">
+                        <h2>Dialogs- Tooltip</h2>
+                        <button type="button" class="btn btn-secondary" data-original-title="Tooltip left"   data-toggle="tooltip" data-placement="left">left</button>
+                       
+                        <button type="button" class="btn btn-secondary" data-original-title="Tooltip right"   data-toggle="tooltip" data-placement="right">right</button>
+                       
+                        <button type="button" class="btn btn-secondary" data-original-title="Tooltip bottom"   data-toggle="tooltip" data-placement="bottom">bottom</button>
+                        
+                        <button type="button" class="btn btn-secondary" data-original-title="Tooltip top"   data-toggle="tooltip" data-placement="top">top</button>
+                    
+                    </section>
+        
+         <section class="mb-5">
+            <h2>Modal</h2>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Show Modal</button>
+
+            <div class="modal fade" id="exampleModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title">Modal Title</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, vel. Iusto dolores, quod rem fuga omnis inventore a corporis provident.
+                        </div>
+                        <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Save Change</button>
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                 
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         </section>
+
+
+                <div style="margin-bottom: 12rem;"></div>
+           
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script>
+    $(function (){
+        $('[data-toggle="popover"]').popover();
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</body>
+</html>

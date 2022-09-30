@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background: rgb(182, 242, 247);
+}
+  
+h2{
+    background: rgb(252, 216, 100);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+}
+h3{
+    text-align: center;
+}
+body img{
+    width: 20%;
+    margin-left: 40%;
+}
+body .main-center{
+
+    font-family: 'Nunito',sans-serif;
+    background:rgb(120, 165, 248);
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    align-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: auto;
+    width: 45%;
+    height: 250px;
+    vertical-align: middle;
+}
+
+    body h1{
+        margin-top: 5%;
+       
+    }
+  img
+{ 
+    width: 50%;
+    margin-left: 20%;
+    
+}
+.main-center{
+   
+   
+    background: rgb(100, 119, 85);
+    
+    border: 3px solid rgb(72, 73, 72);
+    padding: 10px;
+}
+
+.vertical-center {
+   text-align: center;
+   vertical-align: middle;
+  }
+
+.btn-signin{
+    margin-top: 5px;
+    display: inline;
+    background:rgb(5, 83, 47);
+    color: rgb(246, 248, 248);
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border:0;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    outline: none;
+    box-shadow: 0 5px 0 rgba(0, 0, 0,0.0.45);
+    border-radius: 5px;
+    text-decoration: none;
+    width: 800px;
+    text-align: center;
+  }
